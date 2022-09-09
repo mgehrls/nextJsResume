@@ -8,15 +8,14 @@ export default function About() {
         <p className="section__subtitle section__subtitle--about">Developer based out of <br/>Grand Rapids, MI</p>
 
         <div className="about-me__body">
-            <p>Hi TRBL! You are the first visitors to my résumé website that 
-              I finished September 8th. It is still a work in progress, and I plan
-              to make it again in Next.JS as soon as I finish this so I can be more prepared to work with you! Check back on Monday
-              the 12th to see if I succeeded! Here is the <a href="https://github.com/mgehrls/resume" target={"_blank"} rel="noreferrer">github rep</a>.</p>
-            <p className="about-me__body">{`Quick about me: I started learning to code in December 2021. 
+            <p>{`Hi TRBL! Welcome to my first attempt at Next.js and while there 
+              are differences to figure out, it wasn't much of a struggle to get the build working.`}
+              <a href="https://github.com/mgehrls/nextJsResume" target={"_blank"} rel="noreferrer">{`Here's the new repository`}</a>{`.`}</p>
+            <p>{`Quick about me: I started learning to code in December 2021. 
               In May 2022, I quit my salary real estate job to learn 
               coding full time. After completing the coding lessons in `}
-              <a href="https://scrimba.com/learn/frontend" target={"_blank"} rel="noreferrer" />
-                 {`Scrimba's Frontend Developer Career Path</a> I started working
+              <a href="https://scrimba.com/learn/frontend" target={"_blank"} rel="noreferrer" >
+                 Scrimba's Frontend Developer Career Path</a>{`. I started working
                  for a local ABA Therapy company to make data entry tools for 
                  their staff, and a scheduling system that would interact with billing.`}</p>
         </div>
