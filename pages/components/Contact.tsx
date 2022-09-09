@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Contact() {
   return (
     <section id="contact" className="contact">
@@ -19,7 +21,7 @@ export default function Contact() {
                 <i className="fa-brands fa-linkedin"/>
                 <p className="contact__text">LinkedIn</p>
             </a>
-            <a href="/#" className="contact__website contact-grouped">
+            <a href="mgehrls.github.io/resume" className="contact__website contact-grouped">
                 <i className="fa-solid fa-link"/>
                 <p className="contact__text">mgehrls.github.io/resume</p>
             </a>

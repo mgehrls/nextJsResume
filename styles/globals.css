@@ -416,7 +416,7 @@ div.job{
     padding:2rem 1rem;
 }
 
-.about__img{
+.about__img--container{
     margin:0 auto;
     grid-row: 3;
     box-shadow: var(--bs);
@@ -462,6 +462,10 @@ div.job{
     letter-spacing: 1px;
 }
 .about__img{
+    object-fit:cover;
+    height:100%;
+}
+.about__img--container{
     object-fit: cover;
     margin:unset;
     grid-area: img;

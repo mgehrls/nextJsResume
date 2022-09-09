@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function About() {
   return (
     <section className="about-me" id="about">
@@ -13,12 +15,15 @@ export default function About() {
             <p className="about-me__body">{`Quick about me: I started learning to code in December 2021. 
               In May 2022, I quit my salary real estate job to learn 
               coding full time. After completing the coding lessons in `}
-              <a href="https://scrimba.com/learn/frontend" target={"_blank"} rel="noreferrer">
-                 Scrimba's Frontend Developer Career Path</a> I started working
+              <a href="https://scrimba.com/learn/frontend" target={"_blank"} rel="noreferrer" />
+                 {`Scrimba's Frontend Developer Career Path</a> I started working
                  for a local ABA Therapy company to make data entry tools for 
-                 their staff, and a scheduling system that would interact with billing.</p>
+                 their staff, and a scheduling system that would interact with billing.`}</p>
         </div>
-        <img className='about__img' src="img/deck towards.jpg" alt="Matt on his back porch with dog named Alfie." />
+        <picture className='about__img--container'>
+          <source srcSet="img/deck towards.jpg" type="image/webp"/>
+          <img className="about__img" src="img/deck towards.jpg" alt="Matt on his back porch with dog named Alfie." />
+        </picture>
 
     </section>
   )

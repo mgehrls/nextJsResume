@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Contact from "./components/Contact";
@@ -19,7 +18,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        <script src="https://kit.fontawesome.com/344447b639.js" crossOrigin="anonymous"></script>
+        <script async src="https://kit.fontawesome.com/344447b639.js" crossOrigin="anonymous"/>
         <meta name="description" content="Résumé site for frontend web deb Matt Gehrls."/>
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
       </Head>
