@@ -15,7 +15,7 @@ export default function About() {
               In May 2022, I quit my salary real estate job to learn 
               coding full time. After completing the coding lessons in `}
               <a href="https://scrimba.com/learn/frontend" target={"_blank"} rel="noreferrer" >
-                 Scrimba's Frontend Developer Career Path</a>{`. I started working
+                 {`Scrimba's Frontend Developer Career Path`}</a>{`. I started working
                  for a local ABA Therapy company to make data entry tools for 
                  their staff, and a scheduling system that would interact with billing.`}</p>
         </div>
