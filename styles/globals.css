@@ -170,6 +170,9 @@ header{
     margin:0;
     padding:0;
 }
+p.nav__link{
+    margin:0;
+}
 .nav__link{
     color:var(--clr-light);
     font-weight: var(--fw-reg);
