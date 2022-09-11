@@ -364,7 +364,7 @@ div.jobs{
 }
 div.job{
     background-color: rgba(153, 153, 153, .5);
-    padding:1rem;
+    padding:3rem;
     border-radius: 10px;
 }
 
@@ -551,7 +551,7 @@ div.job{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin:0;
+    margin:2rem 0;
     padding:2rem 1rem;
 }
 .details--pic{

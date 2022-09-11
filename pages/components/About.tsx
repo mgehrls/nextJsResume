@@ -9,10 +9,11 @@ export default function About() {
 
         <div className="about-me__body">
             <p>{`Hi TRBL! Welcome to my first attempt at Next.js and while there 
-              are differences to figure out, it wasn't much of a struggle to get the build working.`}
+              are differences to figure out, it wasn't much of a struggle to get the build working. `}
               <a href="https://github.com/mgehrls/nextJsResume" target={"_blank"} rel="noreferrer">{`Here's the new repository`}</a>{`.`}</p>
-            <p>{`Quick about me: I started learning to code in December 2021. 
-              In May 2022, I quit my salary real estate job to learn 
+            <p>{`I'm a former music teacher and real estate agent, who works well in professional, and creative environments. I'm a self taught 
+            web dev who started learning HTML, CSS, and JS through things like freecodecamp.org or youtube pretty blindly at the end of 2021.`}</p>
+            <p>{`In May 2022, I quit my salaried real estate job to learn 
               coding full time. After completing the coding lessons in `}
               <a href="https://scrimba.com/learn/frontend" target={"_blank"} rel="noreferrer" >
                  {`Scrimba's Frontend Developer Career Path`}</a>{`. I started working
